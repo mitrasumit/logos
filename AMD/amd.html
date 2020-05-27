@@ -2,10 +2,17 @@
 <html>
 <head>
 <style>
+.container {
+   width: 100%;
+   height: 100vh;
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 .logo {
    position: absolute;
-   top: 20px;
-   left: 450px;
    height: 300px;
    width: 300px;
    border: 100px solid;
@@ -36,9 +43,11 @@
 </style>
 </head>
 <body>
-<span class="logo">
+<div class="container">
+   <span class="logo">
       <span class="traingle-left"></span>
       <span class="traingle-bottom"></span>
    </span>
+</div>
 </body>
 <html>
